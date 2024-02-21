@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            margin-left: 20px;
+        }
+        .marron{
+            color:brown}
+            .verde{color: rgb(15, 214, 75);}
+            #sub1{ color: blue; }
+    </style>
+</head>
+<body>
+    <h1>Form</h1>
+    <h1 class="marron">Teste</h1>
+    <h1 class="verde" id="sub1">Teste2</h1>
+    <h1 class="verde">Subtitulo2</h1>
+    <h1 class="verde">Subtitulo3</h1>
+    
+</hr>
+<form>
+    <label for="pname">First Name</label><br>
+    <input type="text" id="pnome" name="pnome"><br>
+    <label for="sobrenome">Last Name</label><br>
+    <input type="text" id="Sobrenome" name="Sobrenome"><br>
+
+    <hr>
+    <h3>Sexo</h3>
+    <input type="radio" id="M" name="Sexo" value="Masculine">
+    <label for="M">Masculine</label><br> 
+    <input type="radio" id="F" name="Sexo" value="Girls">
+    <label for="F">Girls</label><br> 
+
+    <hr>
+    <h3>Fruta Favorita</h3>
+    <input type="checkbox" id="fruta1" value="Banana">
+    <label for="fruta1">Banana</label>
+    <input type="checkbox" id="fruta2" value="Abacaxi">
+    <label for="fruta2">Abacaxi</label>
+    <input type="checkbox" id="fruta3" value="Maça">
+    <label for="fruta3">Maça</label>
+
+    <hr>
+    <input type="button" onclick="alert('Seja Bem Vindo')" value="Aperte Aqui">
+    
+    <hr>
+    <label for="cor">Selecione sua cor Favorita:</label>
+    <input type="color" id="cor" name="cor">
+
+    <hr>
+    <h3>Data nascimento</h3>
+    <label for="data">Data Nascimento</label><br>
+    <input type="date" id="data" name="data"><br>
+
+    <hr>
+    <label for="datahora">Data e Hora</label><br>
+    <input type="datetime-local" id="datahora" name="datahora"><br>
+
+    <hr>
+    <label for="mesano">Mês e Ano</label><br>
+    <input type="month" id="mesano" name="mesano">
+    
+    <hr>
+    <label for="email">email</label>
+    <input type="email" id="email" name="email">
+
+    <hr>
+    <input type="image" src="Botao.jpg" alt="submit" width="70" height="70">
+
+    <hr>
+    <label for="arquivos">Selecione um arquivo</label><br>
+    <input type="file" id="arquivos" name="arquivos">
+    
+    <hr>
+    <label for="numero">Escolha um valor entre 1 e 10 </label><br>
+    <input type="number" id="numero" name="numero" min="0" max="10">
+
+    <hr>
+    <label for="carro">Escolha seu Carro:</label><br>
+    <select id="carro" name="carro" size="4" multiple> 
+        <option value=""></option>
+        <option value="BMW">BMW</option>
+        <option value="Audi">Audi</option>
+        <option value="HRV">HRV</option>
+        <option value="Nivus">Nivus</option>
+    </select> 
+    
+    <hr>
+                <fieldset>
+            <legend>Escreva sua mensagem</legend>
+            <textarea name="mensagem" rows="6" cols="40">
+            </textarea>
+        </fieldset>
+
+        <hr>
+
+        <input list="browsers">
+        <datalist id="browsers">
+          <option value="Edge">
+          <option value="Firefox">
+          <option value="Chrome">
+          <option value="Opera">
+          <option value="Safari">
+        </datalist>
+            </form>
+                
+            </body>
+</html>
